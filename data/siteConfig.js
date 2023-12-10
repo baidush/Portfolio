@@ -179,7 +179,7 @@ module.exports = {
     github: "https://github.com/baidush",
     email: "kostiantyn.baidush@gmail.com"
   },
-  siteUrl: '',
+  siteUrl: 'https://kostix.tech',
   pathPrefix: '/gatsby-cv', // Note: it must *not* have a trailing slash.
   siteCover: '/images/cover.jpeg',
   googleAnalyticsId: 'UA-000000000-1',
