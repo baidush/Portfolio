@@ -167,9 +167,29 @@ module.exports = {
   ],
   portifolio: [
     {
-      image: "/images/gatsby-starter-cv.png",
+      image: "/images/vf.png",
       description: "VideoFlow V2",
-      url: "videoflow.io"
+      url: "https://videoflow.io"
+    },
+    {
+      image: "/images/addressya.png",
+      description: "Addressya AB",
+      url: "https://addressya.com"
+    },
+    {
+      image: "/images/clawee.png",
+      description: "Clawee",
+      url: "https://clawee.com"
+    },
+    {
+      image: "/images/bi.png",
+      description: "BetInvest",
+      url: "https://betinvest.com"
+    },
+    {
+      image: "/images/bigcommerce.png",
+      description: "BigCommerce",
+      url: "https://bigcommerce.com"
     },
     /* more portifolio items here */
   ],
@@ -183,7 +203,7 @@ module.exports = {
   pathPrefix: '/gatsby-cv', // Note: it must *not* have a trailing slash.
   siteCover: '/images/cover.jpeg',
   googleAnalyticsId: 'UA-000000000-1',
-  background_color: '#ffffff',
+  background_color: '#ffffacad',
   theme_color: '#25303B',
   fontColor: "#000000cc",
   enableDarkmode: true, // If true, enables dark mode switch
