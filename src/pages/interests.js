@@ -31,8 +31,8 @@ const JobCard = styled.a`
   `}
 `
 
-const Portifolio = ({ className, location }) => {
-  const title = "Projects"
+const Interests = ({ className, location }) => {
+  const title = "Education"
   const { keywords, portifolio } = siteConfig
   return (
     <Layout location={location}>
@@ -49,21 +49,7 @@ const Portifolio = ({ className, location }) => {
       <Wrapper className={className}>
         <Container className="page-content" fluid>
           <Row>
-            {portifolio.map(job => (
-              <Col
-                key={job.description}
-                align="center"
-              >
-                <JobCard
-                  as={job.url ? "a" : "div"}
-                  href={job.url}
-                  target="_blank"
-                >
-                  <Image src={withPrefix(job.image)} />
-                  <p>{job.description}</p>
-                </JobCard>
-              </Col>
-            ))}
+
           </Row>
         </Container>
       </Wrapper>
@@ -71,7 +57,7 @@ const Portifolio = ({ className, location }) => {
   )
 }
 
-export default styled(Portifolio)`
+export default styled(Interests)`
   .page-content {
     max-width: 100%;
     margin-bottom: 40px;

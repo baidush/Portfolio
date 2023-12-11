@@ -215,8 +215,16 @@ module.exports = {
       url: '/',
     },
     {
-      label: 'Portifolio',
+      label: 'Projects',
       url: '/portifolio',
+    },
+    {
+      label: 'Education',
+      url: '/education',
+    },
+    {
+      label: 'Interests',
+      url: '/interests',
     }
   ]
 }
