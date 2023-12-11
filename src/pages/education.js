@@ -42,7 +42,7 @@ const Education = ({ className, location }) => {
       />
 
       <Hero
-        heroImg={withPrefix('/images/pf.jpeg')}
+        heroImg={withPrefix('/images/cover-apple.png')}
         title={title}
       />
 

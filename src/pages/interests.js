@@ -32,7 +32,7 @@ const JobCard = styled.a`
 `
 
 const Interests = ({ className, location }) => {
-  const title = "Education"
+  const title = "Interests"
   const { keywords, portifolio } = siteConfig
   return (
     <Layout location={location}>
@@ -42,7 +42,7 @@ const Interests = ({ className, location }) => {
       />
 
       <Hero
-        heroImg={withPrefix('/images/pf.jpeg')}
+        heroImg={withPrefix('/images/cover.jpeg')}
         title={title}
       />
 
