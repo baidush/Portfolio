@@ -11,32 +11,20 @@ module.exports = {
   I am passionate about learning new technologies and frameworks.`,
   skills: [
     {
+      name: 'NodeJs',
+      level: 70
+    },
+    {
       name: 'TypeScript',
       level: 70
     },
     {
       name: 'JavaScript',
-      level: 60
-    },
-    {
-      name: 'NodeJs',
       level: 70
     },
     {
       name: 'PHP',
       level: 70
-    },
-    {
-      name: 'React',
-      level: 50
-    },
-    {
-      name: 'Angular',
-      level: 50
-    },
-    {
-      name: 'Go',
-      level: 30
     },
     {
       name: 'Git',
@@ -49,6 +37,30 @@ module.exports = {
     {
       name: 'GCP',
       level: 60
+    },
+    {
+      name: 'NestJs',
+      level: 50
+    },
+    {
+      name: 'ReactJs',
+      level: 50
+    },
+    {
+      name: 'AngularJs',
+      level: 50
+    },
+    {
+      name: 'GoLang',
+      level: 30
+    },
+    {
+      name: 'Kubernetes',
+      level: 30
+    },
+    {
+      name: 'Terraform',
+      level: 30
     },
     /* more skills here */
   ],
@@ -182,6 +194,39 @@ module.exports = {
       url: "https://bigcommerce.com"
     },
     /* more portifolio items here */
+  ],
+  education: [
+    {
+      name: "Kremenchuk Mykhailo Ostrohradskyi National University",
+      degree: "M.Sc. degree in Computer Science (awarded on June 2008)",
+      description: "The application provides an automation software storage administration as a part of the company environment",
+      url: "www.kdu.edu.ua",
+      date: "Sep 2007 – Jun 2008"
+    },
+    {
+      name: "Kremenchuk Mykhailo Ostrohradskyi National University",
+      degree: "B.Sc. degree in Computer Systems and Networking",
+      description: "The application provides an automation software storage administration as a part of the company environment",
+      url: "www.kdu.edu.ua",
+      date: "Sep 2003 – Jun 2007"
+    },
+  ],
+  cert: [
+    {
+      name: "Speak Up Language School Kyiv – English, C1 Advanced",
+      url: "www.kdu.edu.ua",
+      date: "Aug 2012 – Jan 2018"
+    },
+    {
+      name: "JUJA Online Courses – OOP, Design Patterns",
+      url: "",
+      date: "Sep 2014 – Dec 2014"
+    },
+    {
+      name: "Coursera: Google Cloud Platform Fundamentals",
+      url: "",
+      date: "Sep 2019"
+    },
   ],
   social: {
     insta: "https://www.instagram.com/kostixbaidush",

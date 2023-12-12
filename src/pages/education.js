@@ -31,9 +31,9 @@ const JobCard = styled.a`
   `}
 `
 
-const Education = ({ className, location }) => {
+const Education = ({ className, location }) => {          
   const title = "Education"
-  const { keywords, portifolio } = siteConfig
+  const { keywords, education, cert } = siteConfig
   return (
     <Layout location={location}>
       <SEO
@@ -48,9 +48,31 @@ const Education = ({ className, location }) => {
 
       <Wrapper className={className}>
         <Container className="page-content" fluid>
-          <Row>
-
-          </Row>
+            <Row className="edu-top">
+            {education.map(edu => (
+              <Col
+                key={edu.description}
+                align="center"
+              >
+                    <div className="edu"> 
+                        <p><strong>{edu.name}</strong></p>
+                        <p>{edu.degree}</p>
+                        <p><em>{edu.description}</em></p>
+                        <p>{edu.date}</p>
+                    </div>
+              </Col>
+            ))}
+            </Row>
+            <Row>
+            {cert.map(c => (
+ 
+                <div className="cert"> 
+                    <p><strong>{c.name}</strong></p>
+                    <p>{c.url}</p>
+                    <p>{c.date}</p>
+                </div>
+            ))}
+            </Row>
         </Container>
       </Wrapper>
     </Layout>
@@ -61,5 +83,17 @@ export default styled(Education)`
   .page-content {
     max-width: 100%;
     margin-bottom: 40px;
+  }
+  .edu-top {
+    margin-top: 50px;
+    padding-left: 0;
+  }
+  .edu {
+    margin-top: 30px;
+    width: 100%;
+  }
+  .cert {
+    margin-top: 30px;
+    width: 100%;
   }
 `
