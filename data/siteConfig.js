@@ -193,6 +193,26 @@ module.exports = {
       description: "BigCommerce",
       url: "https://bigcommerce.com"
     },
+    {
+      image: "/images/smk.png",
+      description: "Software Mackiev",
+      url: "https://mackiev.com"
+    },
+    {
+      image: "/images/tire.png",
+      description: "TireConnect",
+      url: "https://tireconnect.ca"
+    },
+    {
+      image: "/images/tochka.png",
+      description: "Tochka.net",
+      url: "https://tochka.net"
+    },
+    {
+      image: "/images/otpusk.png",
+      description: "Otpusk",
+      url: "https://otpusk.com"
+    },
     /* more portifolio items here */
   ],
   education: [
@@ -214,8 +234,24 @@ module.exports = {
   cert: [
     {
       name: "Speak Up Language School Kyiv – English, C1 Advanced",
-      url: "www.kdu.edu.ua",
       date: "Aug 2012 – Jan 2018"
+    },
+    {
+      name: "JUJA Online Courses – OOP, Design Patterns",
+      url: "",
+      date: "Sep 2014 – Dec 2014"
+    },
+    {
+      name: "Coursera: Google Cloud Platform Fundamentals",
+      url: "",
+      date: "Sep 2019"
+    },
+  ],
+  interests: [
+    {
+      name: "Speak Up Language School Kyiv – English, C1 Advanced",
+      url: "www.kdu.edu.ua",
+      desc: "Aug 2012 – Jan 2018"
     },
     {
       name: "JUJA Online Courses – OOP, Design Patterns",
