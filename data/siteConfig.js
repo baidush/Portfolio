@@ -110,7 +110,7 @@ module.exports = {
       },
       duration: '1 yr e 6 mos',
       occupation: "Senior PHP Engineer",
-      description: "Responsible for the implementation and parameterization of the system, training and customer support. Acting also in person in real estate launches guaranteeing the success and good use of the tool."
+      description: "This is an experience to develop new functionality for the web app, monolit platform"
   
     }, {
       company: "Software MacKiev",
@@ -120,27 +120,17 @@ module.exports = {
       },
       duration: '2 yrs',
       occupation: "Senior PHP Engineer",
-      description: "Responsible for the implementation and parameterization of the system, training and customer support. Acting also in person in real estate launches guaranteeing the success and good use of the tool."
-  
-    }, {
-      company: "SandSIV Group",
-      begin: {
-        month: 'Mar',
-        year: '2013'
-      },
-      duration: '1 yr',
-      occupation: "PHP/JavaScript Full-Stack Engineer",
-      description: "Responsible for the implementation and parameterization of the system, training and customer support. Acting also in person in real estate launches guaranteeing the success and good use of the tool."
+      description: "Developing a full-stack e-learning platform with integrated e-commerce features and multi-tenant scalability"
   
     }, {
       company: "Platinum Bank",
       begin: {
         month: 'Aug',
-        year: '2011'
+        year: '2013'
       },
-      duration: '1 yr e 8 mos',
+      duration: '2 yr e 8 mos',
       occupation: "PHP/JavaScript Full-Stack Engineer",
-      description: "Responsible for the implementation and parameterization of the system, training and customer support. Acting also in person in real estate launches guaranteeing the success and good use of the tool."
+      description: "Developing an internal Customer Relationship Management (CRM) system for a banking environment"
   
     }, {
       company: "Otpusk",
@@ -150,7 +140,7 @@ module.exports = {
       },
       duration: '9 mos',
       occupation: "PHP/JavaScript Full-Stack Engineer",
-      description: "Responsible for the implementation and parameterization of the system, training and customer support. Acting also in person in real estate launches guaranteeing the success and good use of the tool."
+      description: "Creating a web-based Customer Relationship Management (CRM) system and portal that registers and hosts customer data"
   
     }, {
       company: "Digital Ventures",
@@ -160,7 +150,7 @@ module.exports = {
       },
       duration: '2 yrs e 4 mos',
       occupation: "PHP/JavaScript Full-Stack Engineer",
-      description: "Responsible for the implementation and parameterization of the system, training and customer support. Acting also in person in real estate launches guaranteeing the success and good use of the tool."
+      description: "Developing a scalable horizontal internet portal"
   
     }, 
     
