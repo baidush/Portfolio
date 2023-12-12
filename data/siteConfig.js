@@ -247,23 +247,23 @@ module.exports = {
       date: "Sep 2019"
     },
   ],
-  interests: [
-    {
-      name: "Speak Up Language School Kyiv – English, C1 Advanced",
-      url: "www.kdu.edu.ua",
-      desc: "Aug 2012 – Jan 2018"
-    },
-    {
-      name: "JUJA Online Courses – OOP, Design Patterns",
-      url: "",
-      date: "Sep 2014 – Dec 2014"
-    },
-    {
-      name: "Coursera: Google Cloud Platform Fundamentals",
-      url: "",
-      date: "Sep 2019"
-    },
-  ],
+  interests_title: "In addition to software development, I have several hobbies, which I try to devote enough time to and get certain results in them and keep work-life balance",
+  music: 
+  {
+      name: "Music and Drumming",
+      txt: "I have been playing music and drumming since my childhood. If you'd like to watch my creative videos, including my drumming performances, you can find them on my YouTube channel.",
+      prev: "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/ivvxJ2h8nes?si=L9WHpwZv39MpBwOp\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>"
+  },
+  gym: {
+      name: "Running and Gym",
+      txt: "I've achieved notable results in the gym, currently bench pressing 120 kg. Additionally, I've covered approximately 500 miles through running over the past few years",
+      prev: ""
+  },
+  books: {
+      name: "Books",
+      txt: "In my free time, I enjoy delving into new books. I have a particular fondness for fiction, detectives and technical books",
+      prev: ""
+  },
   social: {
     insta: "https://www.instagram.com/kostixbaidush",
     linkedin: "https://www.linkedin.com/in/kostix",

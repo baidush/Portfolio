@@ -33,7 +33,7 @@ const JobCard = styled.a`
 
 const Interests = ({ className, location }) => {
   const title = "Interests"
-  const { keywords, interests } = siteConfig
+  const { keywords, music, books, gym, interests_title } = siteConfig
   return (
     <Layout location={location}>
       <SEO
@@ -49,18 +49,34 @@ const Interests = ({ className, location }) => {
       <Wrapper className={className}>
         <Container className="page-content" fluid>
         <Row className="edu-top">
-            {interests.map(int => (
+            <p><strong>{interests_title}</strong></p>
+        </Row>
+        <Row className="edu-top">
               <Col
-                key={int.description}
                 align="center"
               >
                     <div className="edu"> 
-                        <p><strong>{int.name}</strong></p>
-                        <p>{int.desc}</p>
-                        <p><em>{int.prev}</em></p>
+                        <h2>{music.name}</h2>
+                        <p>{music.txt}</p>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/ivvxJ2h8nes?si=FS5Y5ZqQRnNlo4Zs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                     </div>
               </Col>
-            ))}
+              <Col key={gym.txt}
+                align="center"
+              >
+                    <div className="edu"> 
+                        <h2>{gym.name}</h2>
+                        <p>{gym.txt}</p>
+                     </div>
+              </Col>
+              <Col key={books.txt}
+                align="center"
+              >
+                    <div className="edu"> 
+                        <h2>{books.name}</h2>
+                        <p>{books.txt}</p>
+                     </div>
+              </Col>
         </Row>
         </Container>
       </Wrapper>
@@ -74,7 +90,7 @@ export default styled(Interests)`
     margin-bottom: 40px;
   }
   .edu-top {
-    margin-top: 50px;
+    margin-top: -15px;
     padding-left: 0;
   }
   .edu {
