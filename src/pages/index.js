@@ -45,6 +45,7 @@ const Home = ({ className, location }) => {
 
       <Wrapper className={className} >
         <Container className="page-content" fluid>
+          <Row className="edu-top"><div className="title-index" align="center"><h4>Senior Node JS Engineer | TypeScript, AWS, Architecture Solutions</h4></div></Row>
           <Row>
             <Col xs={4} className='avatar'>
               <img
@@ -129,5 +130,15 @@ export default styled(Home)`
 
   a.social-link.email:hover {
     color: #c23a2b;
+  }
+  .edu-top {
+    margin-top: -15px;
+    padding-left: 0;
+    text-align: center;
+    width: 100%
+  }
+  .title-index {
+    text-align: center;
+    width: 100%
   }
 `

@@ -33,7 +33,7 @@ const JobCard = styled.a`
 
 const Education = ({ className, location }) => {          
   const title = "Education"
-  const { keywords, education, cert } = siteConfig
+  const { keywords, education, cert, edu_title } = siteConfig
   return (
     <Layout location={location}>
       <SEO
@@ -48,6 +48,7 @@ const Education = ({ className, location }) => {
 
       <Wrapper className={className}>
         <Container className="page-content" fluid>
+            <Row className="edu-title"><strong>{edu_title}</strong></Row>
             <Row className="edu-top">
             {education.map(edu => (
               <Col
@@ -95,5 +96,9 @@ export default styled(Education)`
   .cert {
     margin-top: 30px;
     width: 100%;
+  }
+  .edu-title {
+    margin-top: -35px;
+    padding-left: 0;
   }
 `
