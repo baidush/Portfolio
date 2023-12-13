@@ -6,9 +6,7 @@ module.exports = {
   twitterUsername: '',
   githubUsername: 'baidush',
   authorAvatar: '/images/avatar.jpeg',
-  authorDescription: `My mission is to leverage my skills and expertise in <strong>Javascript, TypeScript, NodeJS, Nest JS.</strong>, 
-  and cloud technologies to create innovative and engaging web and mobile applications as a server-side or full-stack engineer. 
-  I am passionate about learning new technologies and frameworks.`,
+  authorDescription: `I am on a mission to utilize my skills and expertise in Javascript, TypeScript, NodeJS, Nest JS, and cloud technologies to develop innovative and captivating web and mobile applications as a server-side or full-stack engineer. I have a strong passion for continuously learning new technologies and frameworks.`,
   skills: [
     {
       name: 'NodeJs',
@@ -74,7 +72,7 @@ module.exports = {
       },
       duration: '2 years',
       occupation: "Senior Node JS (Typescript, Javascript) Engineer",
-      description: "I implemented a scalable TypeScript-based REST API, conducted JEST e2e tests, and set up basic DEV-OPS and a CI/CD pipeline using GitHub Actions. The project also involved AngularJS frontend development and extensive refactoring from native JavaScript to TypeScript."
+      description: "My responsibility involved implementing a scalable REST API using TypeScript, conducted JEST e2e tests, and set up basic DEV-OPS and a CI/CD pipeline using GitHub Actions. The project also involved AngularJS frontend development and extensive refactoring from native JavaScript to TypeScript."
     },  {
       company: "Addressya AB",
       begin: {
