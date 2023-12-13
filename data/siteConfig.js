@@ -6,15 +6,28 @@ module.exports = {
   twitterUsername: '',
   githubUsername: 'baidush',
   authorAvatar: '/images/avatar.jpeg',
-  authorDescription: `I am on a mission to utilize my skills and expertise in Javascript, TypeScript, NodeJS, Nest JS, and cloud technologies to develop innovative and captivating web and mobile applications as a server-side or full-stack engineer. I have a strong passion for continuously learning new technologies and frameworks.`,
+  authorDescription: `I am on a mission to utilize my skills and expertise in Javascript, TypeScript, NodeJS, Nest JS, and cloud technologies to develop innovative and captivating web and mobile applications as a server-side or full-stack engineer. I have a strong passion for continuously learning new technologies and frameworks.
+  
+  <br> <br> I bring over 15 years of web programming experience with expertise in the following areas:
+  <br><br><ul>
+  <li>In-depth knowledge of cloud platforms such as AWS and GCP.</li>
+<li>Extensive use of TypeScript-based backend development, including RESTful API, TypeOrm, FireOrm, Mongoose, and Typegoose.</li>
+<li>Proficiency in designing micro-service architecture solutions.</li>
+<li>Experience with various JS frontend frameworks, including Angular, React, Vue, and Gatsby.</li>
+<li>Backend framework expertise in Nest JS and Express JS, with a notable 4 years of experience specifically with the NEST JS framework.</li>
+<li>Diverse project experience spanning broadcasting, I-Gaming, real-time mobile apps, e-commerce, and social media.</li>
+<li>Leadership experience in managing a scrum team as a lead and mentoring developers across junior to senior levels.</li>
+<li>Specialized expertise in backend development, complemented by a deep understanding of web frontend technologies.</li>
+<ul>
+  `,
   skills: [
     {
       name: 'NodeJs',
-      level: 70
+      level: 80
     },
     {
       name: 'TypeScript',
-      level: 70
+      level: 80
     },
     {
       name: 'JavaScript',
@@ -49,7 +62,59 @@ module.exports = {
       level: 50
     },
     {
+      name: 'BootstrapJs',
+      level: 50
+    },
+    {
+      name: 'MySQL',
+      level: 50
+    },
+    {
+      name: 'Postgresql',
+      level: 50
+    },
+    {
+      name: 'MongoDB',
+      level: 50
+    },
+    {
+      name: 'GraphQL',
+      level: 50
+    },
+    {
+      name: 'SQS',
+      level: 50
+    },
+    {
+      name: 'RabbitMQ',
+      level: 50
+    },
+    {
+      name: 'Kafka',
+      level: 50
+    },
+    {
+      name: 'AngularJs',
+      level: 50
+    },
+    {
+      name: 'VueJs',
+      level: 50
+    },
+    {
+      name: 'Micro-services',
+      level: 50
+    },
+    {
+      name: 'Lambda',
+      level: 50
+    },
+    {
       name: 'GoLang',
+      level: 30
+    },
+    {
+      name: 'Python',
       level: 30
     },
     {
