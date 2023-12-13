@@ -8,7 +8,7 @@ module.exports = {
   authorAvatar: '/images/avatar.jpeg',
   authorDescription: `I am on a mission to utilize my skills and expertise in Javascript, TypeScript, NodeJS, Nest JS, and cloud technologies to develop innovative and captivating web and mobile applications as a server-side or full-stack engineer. I have a strong passion for continuously learning new technologies and frameworks.
   
-  <br> <br> I bring over 15 years of web programming experience with expertise in the following areas:
+  <br> <br> <strong>I bring over 15 years of web programming experience with expertise in the following areas:<strong>
   <br><br><ul>
   <li>In-depth knowledge of cloud platforms such as AWS and GCP.</li>
 <li>Extensive use of TypeScript-based backend development, including RESTful API, TypeOrm, FireOrm, Mongoose, and Typegoose.</li>
