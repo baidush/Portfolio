@@ -94,7 +94,7 @@ export default styled(Home)`
   }
 
   .about {
-    font-size: 12px;
+    font-size: 14px;
   }
 
   li {

@@ -24,7 +24,7 @@ export default styled(SkillBar)`
     padding: 1px;
   }
   .skill-size {
-    font-size: 11px;
+    font-size: 13px;
   }
   .skill__level {
     background-color: ${({ theme }) => theme.colors.primary};

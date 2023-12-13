@@ -6,10 +6,8 @@ module.exports = {
   twitterUsername: '',
   githubUsername: 'baidush',
   authorAvatar: '/images/avatar.jpeg',
-  authorDescription: `I am on a mission to utilize my skills and expertise in Javascript, TypeScript, NodeJS, Nest JS, and cloud technologies to develop innovative and captivating web and mobile applications as a server-side or full-stack engineer. I have a strong passion for continuously learning new technologies and frameworks.
-  
-  <br> <br> <strong>I bring over 15 years of web programming experience with expertise in the following areas:</strong>
-  <br><br><ul>
+  authorDescription: `I bring over 15 years of web programming experience with expertise in the following areas:
+  <ul>
   <li>In-depth knowledge of cloud platforms such as AWS and GCP.</li>
 <li>Extensive use of TypeScript-based backend development, including RESTful API, TypeOrm, FireOrm, Mongoose, and Typegoose.</li>
 <li>Proficiency in designing micro-service architecture solutions.</li>
@@ -22,109 +20,45 @@ module.exports = {
   `,
   skills: [
     {
-      name: 'NodeJs',
+      name: 'NodeJs | TypeScript | JavaScript | PHP | Go | Phyton',
       level: 80
     },
     {
-      name: 'TypeScript',
-      level: 80
-    },
-    {
-      name: 'JavaScript',
+      name: 'Git | | SVN | Github | Gitlab | Bitbucket',
       level: 70
     },
     {
-      name: 'PHP',
-      level: 70
-    },
-    {
-      name: 'Git',
-      level: 70
-    },
-    {
-      name: 'AWS',
+      name: 'AWS | SQS | Lambda | Api Gateway | EC2 | S3 | EBS | CloudFront',
       level: 60
     },
     {
-      name: 'GCP',
+      name: 'GCP | AppEngine | ComputeEngine | Firebase | BigQuery',
       level: 60
     },
     {
-      name: 'NestJs',
+      name: 'NestJs | ExpressJs | ReactJs | AngularJs | BootstrapJs | NextJs',
       level: 50
     },
     {
-      name: 'ReactJs',
+      name: 'MySQL | Postgresql | Mongodb | GraphQl | Dynamodb | Firestore',
       level: 50
     },
     {
-      name: 'AngularJs',
+      name: 'RabbitMQ | Kafka | SQS',
       level: 50
     },
     {
-      name: 'BootstrapJs',
+      name: 'Micro-services | event-driven | event-sourcing',
       level: 50
     },
     {
-      name: 'MySQL',
+      name: 'Lambda | serverless | cloud functions',
       level: 50
     },
     {
-      name: 'Postgresql',
-      level: 50
-    },
-    {
-      name: 'MongoDB',
-      level: 50
-    },
-    {
-      name: 'GraphQL',
-      level: 50
-    },
-    {
-      name: 'SQS',
-      level: 50
-    },
-    {
-      name: 'RabbitMQ',
-      level: 50
-    },
-    {
-      name: 'Kafka',
-      level: 50
-    },
-    {
-      name: 'AngularJs',
-      level: 50
-    },
-    {
-      name: 'VueJs',
-      level: 50
-    },
-    {
-      name: 'Micro-services',
-      level: 50
-    },
-    {
-      name: 'Lambda',
-      level: 50
-    },
-    {
-      name: 'GoLang',
+      name: 'Kubernetes | Terraform',
       level: 30
-    },
-    {
-      name: 'Python',
-      level: 30
-    },
-    {
-      name: 'Kubernetes',
-      level: 30
-    },
-    {
-      name: 'Terraform',
-      level: 30
-    },
+    }
     /* more skills here */
   ],
   jobs: [
