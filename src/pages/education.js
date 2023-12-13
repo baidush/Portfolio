@@ -31,55 +31,49 @@ const JobCard = styled.a`
   `}
 `
 
-const Education = ({ className, location }) => {          
-  const title = "Education"
-  const { keywords, education, cert, edu_title } = siteConfig
-  return (
-    <Layout location={location}>
-      <SEO
-        title={title}
-        keywords={keywords}
-      />
-
-      <Hero
-        heroImg={withPrefix('/images/cover-apple.png')}
-        title={title}
-      />
-
-      <Wrapper className={className}>
-        <Container className="page-content" fluid>
-            <Row className="edu-title"><strong>{edu_title}</strong></Row>
+const Education = ({ className, location }) => {
+    const title = "Education";
+    const { keywords, education, cert, edu_title } = siteConfig;
+  
+    return (
+      <Layout location={location}>
+        <SEO title={title} keywords={keywords} />
+        <Hero heroImg={withPrefix('/images/cover-apple.png')} title={title} />
+  
+        <Wrapper className={className}>
+          <Container className="page-content" fluid>
+            <Row className="edu-title">
+              <strong>{edu_title}</strong>
+            </Row>
+            
             <Row className="edu-top">
-            {education.map(edu => (
-              <Col
-                key={edu.description}
-                align="center"
-              >
-                    <div className="edu"> 
-                        <p><strong>{edu.name}</strong></p>
-                        <p>{edu.degree}</p>
-                        <p><em>{edu.description}</em></p>
-                        <p>{edu.date}</p>
-                    </div>
-              </Col>
-            ))}
+              {education.map(edu => (
+                <Col key={edu.description} align="center">
+                  <div className="edu">
+                    <p><strong>{edu.name}</strong></p>
+                    <p>{edu.degree}</p>
+                    <p><em>{edu.description}</em></p>
+                    <p>{edu.date}</p>
+                  </div>
+                </Col>
+              ))}
             </Row>
+  
             <Row>
-            {cert.map(c => (
- 
-                <div className="cert"> 
-                    <p><strong>{c.name}</strong></p>
-                    <p>{c.url}</p>
-                    <p>{c.date}</p>
+              {cert.map(c => (
+                <div className="cert" key={c.name}>
+                  <p><strong>{c.name}</strong></p>
+                  <p>{c.url}</p>
+                  <p>{c.date}</p>
                 </div>
-            ))}
+              ))}
             </Row>
-        </Container>
-      </Wrapper>
-    </Layout>
-  )
-}
-
+          </Container>
+        </Wrapper>
+      </Layout>
+    );
+  };
+  
 export default styled(Education)`
   .page-content {
     max-width: 100%;

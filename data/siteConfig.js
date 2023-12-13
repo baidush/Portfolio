@@ -100,8 +100,7 @@ module.exports = {
       },
       duration: '1 yr',
       occupation: "Senior Node JS (Typescript, Javascript) Engineer",
-      description: "This is an experience to develop Node JS based REST API based on typescript/Express JS using microservice architecture based on GCP with BigQuery and key-value storages, E2E and Unit tests covering"
-  
+      description: "This encompasses the development of a Node.js-based REST API using TypeScript and Express.js, adopting a microservice architecture on Google Cloud Platform (GCP) with integration to BigQuery and key-value storages. Comprehensive E2E and unit tests were implemented to ensure thorough coverage."
     }, {
       company: "Edvantis Polska",
       begin: {
@@ -296,6 +295,10 @@ module.exports = {
     {
       label: 'Interests',
       url: '/interests',
+    }, 
+    {
+      label: 'Download',
+      url: '/images/kostiantyn-baidush-cv.pdf',
     }
   ]
 }
