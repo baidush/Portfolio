@@ -74,7 +74,7 @@ module.exports = {
       },
       duration: '2 years',
       occupation: "Senior Node JS (Typescript, Javascript) Engineer",
-      description: "Implemented a scalable TypeScript-based monolithic REST API to enhance an existing Node.js/Express.js API with a legacy native JavaScript codebase. The scope included end-to-end testing using JEST, basic DEV-OPS setup for the new app version, frontend development with AngularJS, and the implementation of a CI/CD pipeline using GitHub Actions. The project also involved significant refactoring, including the replacement of legacy code, and the introduction of new endpoints and models in a high-quality TypeScript version"
+      description: "I implemented a scalable TypeScript-based REST API, conducted JEST e2e tests, and set up basic DEV-OPS and a CI/CD pipeline using GitHub Actions. The project also involved AngularJS frontend development and extensive refactoring from native JavaScript to TypeScript."
     },  {
       company: "Addressya AB",
       begin: {
