@@ -93,12 +93,19 @@ export default styled(Home)`
     margin-bottom: 40px;
   }
 
+  .about {
+    font-size: 12px;
+  }
+
+  li {
+    margin: 0;
+  }
+
   .avatar {
     align-items: center;
     margin-bottom: 24px;
     flex-direction: column;
   }
-
   .avatar__image {
     box-shadow: 3px 3px 15px 0px rgba(0,0,0,0.75);
     max-width: 200px;
