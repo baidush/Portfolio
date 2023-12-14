@@ -19,10 +19,6 @@ function SEO({ description, lang, meta, keywords, title }) {
             titleTemplate={`%s | ${data.site.siteMetadata.title}`}
             meta={[
               {
-                name: `og:image`,
-                content: `https://kostix.tech/images/cover.png`
-              },
-              {
                 name: `description`,
                 content: metaDescription,
               },
@@ -33,6 +29,10 @@ function SEO({ description, lang, meta, keywords, title }) {
               {
                 property: `og:description`,
                 content: metaDescription,
+              },
+              {
+                property: `og:image`,
+                content: `https://kostix.tech/images/cover.png`
               },
               {
                 property: `og:type`,
