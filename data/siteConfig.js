@@ -292,12 +292,12 @@ module.exports = {
       url: '/education',
     },
     {
+      label: 'Download',
+      url: '/images/kostiantyn-baidush-cv.pdf',
+    },
+    {
       label: 'Interests',
       url: '/interests',
     }, 
-    {
-      label: 'Download',
-      url: '/images/kostiantyn-baidush-cv.pdf',
-    }
   ]
 }
