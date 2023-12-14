@@ -33,7 +33,7 @@ function SEO({ description, lang, meta, keywords, title }) {
               },
               {
                 property: `og:image`,
-                content: { social }
+                content: social
               },
               {
                 property: `og:type`,
