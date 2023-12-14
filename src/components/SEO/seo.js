@@ -20,6 +20,10 @@ function SEO({ description, lang, meta, keywords, title }) {
             titleTemplate={`%s | ${data.site.siteMetadata.title}`}
             meta={[
               {
+                property: `og:image`,
+                content: social
+              },
+              {
                 name: `description`,
                 content: metaDescription,
               },
@@ -30,10 +34,6 @@ function SEO({ description, lang, meta, keywords, title }) {
               {
                 property: `og:description`,
                 content: metaDescription,
-              },
-              {
-                property: `og:image`,
-                content: social
               },
               {
                 property: `og:type`,
