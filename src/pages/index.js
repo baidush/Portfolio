@@ -33,7 +33,7 @@ const Home = ({ className, location }) => {
   const { keywords } = siteConfig
   return (
     <Layout location={location}>
-      <SEO
+          <SEO
         title={title}
         keywords={keywords}
       />
@@ -53,6 +53,7 @@ const Home = ({ className, location }) => {
                 src={withPrefix(siteConfig.authorAvatar)}
                 alt='user avatar'
               />
+              <div><p>📍<strong>Los Angeles, CA</strong></p></div>
               <div className="social">
                 {siteConfig.social.github && <a className="social-link github" href={siteConfig.social.github}>
                   <FaGithub className="social-icon" size="32" />
