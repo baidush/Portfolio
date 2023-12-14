@@ -2,6 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 import { StaticQuery, graphql } from 'gatsby'
+import social from '../../../static/images/cover.png'
 
 function SEO({ description, lang, meta, keywords, title }) {
   return (
@@ -32,7 +33,7 @@ function SEO({ description, lang, meta, keywords, title }) {
               },
               {
                 property: `og:image`,
-                content: `https://kostix.tech/images/cover.png`
+                content: { social }
               },
               {
                 property: `og:type`,
