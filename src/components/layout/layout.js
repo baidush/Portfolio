@@ -7,7 +7,6 @@ import Header from '../header'
 import Footer from '../footer'
 import { useDarkMode } from './useDarkMode'
 import { animateOnScroll } from '../../utils/isVisible'
-import Helmet from 'react-helmet'
 
 const variants = {
   initial: { y: 100, opacity: 0 },
@@ -30,40 +29,6 @@ const Layout = ({ children, location }) => {
     <GlobalStyle />
     <StyledContainer>
       <Header location={location} onChangeTheme={setTheme} theme={theme} />
-      <Helmet
-            htmlAttributes={{
-              lang,
-            }}
-            title={title}
-            titleTemplate={`%s | ${data.site.siteMetadata.title}`}
-            meta={[
-              {
-                name: `description`,
-                content: 'Kostiantyn Baidush CV',
-              },
-              {
-                property: `og:title`,
-                content: 'Kostiantyn Baidush CV',
-              },
-              {
-                property: `og:description`,
-                content: 'Kostiantyn Baidush CV',
-              },
-              {
-                property: `og:image`,
-                content: 'https://kostix.tech/images/cover.png'
-              },]
-              .concat(
-                keywords.length > 0
-                  ? {
-                      name: `keywords`,
-                      content: keywords.join(`, `),
-                    }
-                  : []
-              )
-              .concat(meta)}
-        />
-  
       <motion.main
         key={location}
         variants={variants}
