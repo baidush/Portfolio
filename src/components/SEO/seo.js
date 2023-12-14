@@ -55,6 +55,7 @@ function SEO({ description, lang, meta, keywords, title }) {
                 content: metaDescription,
               },
             ]
+            .concat(meta)
               .concat(
                 keywords.length > 0
                   ? {
@@ -62,8 +63,7 @@ function SEO({ description, lang, meta, keywords, title }) {
                       content: keywords.join(`, `),
                     }
                   : []
-              )
-              .concat(meta)}
+            )}
           />
         )
       }}
