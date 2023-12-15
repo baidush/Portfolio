@@ -14,6 +14,8 @@ function SEO({ description, lang, meta, keywords, title }) {
           <Helmet
             htmlAttributes={{
               lang,
+              'xmlns:og': 'http://ogp.me/ns#',
+              'xmlns:fb': 'http://ogp.me/ns/fb#'
             }}
             title={title}
             titleTemplate={`%s | ${data.site.siteMetadata.title}`}
@@ -23,7 +25,7 @@ function SEO({ description, lang, meta, keywords, title }) {
                 content: 'https://kostix.tech/images/cover.png'
               },
               {
-                property: `og:image:secure_url`,
+                property: `og:image:url`,
                 content: 'https://kostix.tech/images/cover.png'
               },
               {
