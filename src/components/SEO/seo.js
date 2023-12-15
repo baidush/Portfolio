@@ -23,6 +23,22 @@ function SEO({ description, lang, meta, keywords, title }) {
                 content: 'https://kostix.tech/images/cover.png'
               },
               {
+                property: `og:image:secure_url`,
+                content: 'https://kostix.tech/images/cover.png'
+              },
+              {
+                property: `og:image:type`,
+                content: 'image/png'
+              },
+              {
+                property: `og:image:width`,
+                content: '400'
+              },
+              {
+                property: `og:image:width`,
+                content: '300'
+              },
+              {
                 name: `description`,
                 content: metaDescription,
               },
