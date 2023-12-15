@@ -2,7 +2,7 @@
   "name": "gatsby-cv",
   "private": true,
   "description": "CV with GatsbyJS",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "author": "Kostix Baidush <kostiantyn.baidush@gmail.com>",
   "dependencies": {
     "@loadable/component": "5.12.0",
