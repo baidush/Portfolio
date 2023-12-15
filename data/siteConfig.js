@@ -243,8 +243,8 @@ module.exports = {
       date: "Sep 2019"
     },
   ],
-  interests_title: "In addition to software development, I have several hobbies, which I try to devote enough time to and get certain results in them and keep work-life balance",
-  projects_title: "In my professional practice, I've worked extensively with a diverse range of web and mobile applications. Here are some of the main projects where I delivered significant results",
+  interests_title: "I have several hobbies, which I try to devote enough time to and get certain results in them and keep work-life balance",
+  projects_title: "In my professional practice, I've worked extensively with a diverse range of web and mobile applications",
   edu_title: "The venture into software development started in 2003 when I enrolled at the Technical University in my hometown, Kremenchuk, Ukraine. I successfully completed the program, earning a Master's Degree in Computer Science",
   music: 
   {
