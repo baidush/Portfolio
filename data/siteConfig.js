@@ -269,7 +269,7 @@ module.exports = {
     email: "kostiantyn.baidush@gmail.com"
   },
   siteUrl: 'https://kostix.tech',
-  pathPrefix: '/gatsby-cv', // Note: it must *not* have a trailing slash.
+  pathPrefix: '/cv', // Note: it must *not* have a trailing slash.
   siteCover: '/images/cover.png',
   googleAnalyticsId: 'UA-000000000-1',
   background_color: '#ffffacad',

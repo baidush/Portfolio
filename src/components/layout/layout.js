@@ -25,10 +25,10 @@ const Layout = ({ children, location }) => {
   }, [])
   return (
   <ThemeProvider theme={themes[theme || 'light']}>
-    <ResetCSS />
-    <GlobalStyle />
     <StyledContainer>
       <Header location={location} onChangeTheme={setTheme} theme={theme} />
+      <ResetCSS />
+    <GlobalStyle />
       <motion.main
         key={location}
         variants={variants}
