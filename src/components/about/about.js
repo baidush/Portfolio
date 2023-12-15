@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-export default styled(({ title = 'summury', text = '' }) => {
+export default styled(({ title = 'about', text = '' }) => {
   return (
     <div>
       <h1>{title}</h1>
