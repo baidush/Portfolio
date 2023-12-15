@@ -22,6 +22,7 @@ module.exports = {
         theme_color: config.theme_color,
         display: config.display,
         icon: config.icon,
+        legacy: false,
       },
     },
     `gatsby-plugin-styled-components`,
