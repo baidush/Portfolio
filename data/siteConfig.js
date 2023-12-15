@@ -24,7 +24,7 @@ module.exports = {
       level: 80
     },
     {
-      name: 'Git | | SVN | Github | Gitlab | Bitbucket',
+      name: 'Git | SVN | Github | Gitlab | Bitbucket',
       level: 70
     },
     {
