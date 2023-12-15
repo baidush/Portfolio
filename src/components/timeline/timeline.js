@@ -76,7 +76,8 @@ export default styled(Timeline)`
     font-size: 12px;
     font-weight: 900;
     text-transform: uppercase;
-    background: ${({ theme }) => theme.colors.primary};
+    #background: ${({ theme }) => theme.colors.primary};
+    background: #4caf50;
     color: #fff;
     box-shadow: 0 0 0 7px ${({ theme }) => theme.colors.background};
   }

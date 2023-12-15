@@ -53,7 +53,7 @@ const Home = ({ className, location }) => {
                 src={withPrefix(siteConfig.authorAvatar)}
                 alt='user avatar'
               />
-              <div><p>📍<strong>Los Angeles, CA</strong></p></div>
+              <div><p className='text-location-color'>📍<strong>Los Angeles, CA</strong></p></div>
               <div className="social">
                 {siteConfig.social.github && <a className="social-link github" href={siteConfig.social.github}>
                   <FaGithub className="social-icon" size="32" />
@@ -96,6 +96,10 @@ export default styled(Home)`
 
   .about {
     font-size: 14px;
+  }
+
+  .text-location-color {
+    color: #1d7ac3;
   }
 
   li {
