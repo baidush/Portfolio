@@ -1,6 +1,6 @@
 module.exports = {
   siteTitle: 'Kostiantyn Baidush CV',
-  siteDescription: `Kostiantyn Baidush CV`,
+  siteDescription: `Senior Software Engineer`,
   keyWords: ['gatsbyjs', 'NodeJs', 'TypeScript'],
   authorName: 'Kostix Baidush',
   twitterUsername: '',
