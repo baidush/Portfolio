@@ -78,10 +78,6 @@ const Home = ({ className, location }) => {
               <Skills title='Competence' skills={siteConfig.skills} />
             </Col>
           </Row>
-          <Separator />
-          <Timeline />
-          <Separator />
-          {siteConfig.githubUsername && <Repositories />}
         </Container>
       </Wrapper>
     </Layout>

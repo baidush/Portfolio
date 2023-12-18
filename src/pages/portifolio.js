@@ -68,6 +68,10 @@ const Portifolio = ({ className, location }) => {
               </Col>
             ))}
           </Row>
+          <Separator />
+          <Timeline />
+          <Separator />
+          {siteConfig.githubUsername && <Repositories />}
         </Container>
       </Wrapper>
     </Layout>
