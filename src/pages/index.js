@@ -11,17 +11,8 @@ import SEO from '../components/SEO'
 import Wrapper from '../components/wrapper'
 import About from '../components/about'
 import Skills from '../components/skills'
-import Timeline from '../components/timeline'
-import Repositories from '../components/repositories'
 
 const Layout = loadable(() => import('../components/layout'))
-
-const Separator = styled.hr`
-  margin-top: 24px;
-  margin-bottom: 16px;
-  background-color: ${({ theme }) => theme.colors.fontColor};
-  opacity: .2;
-`
 
 const Home = ({ className, location }) => {
   // validate siteConfig settings

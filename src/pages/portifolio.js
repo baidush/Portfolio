@@ -7,6 +7,15 @@ import loadable from '@loadable/component'
 import Hero from '../components/hero'
 import SEO from '../components/SEO'
 import Wrapper from '../components/wrapper'
+import Timeline from '../components/timeline'
+import Repositories from '../components/repositories'
+
+const Separator = styled.hr`
+  margin-top: 24px;
+  margin-bottom: 16px;
+  background-color: ${({ theme }) => theme.colors.fontColor};
+  opacity: .2;
+`
 
 const Layout = loadable(() => import('../components/layout'))
 
