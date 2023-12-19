@@ -57,6 +57,27 @@ const HeaderLink = styled(Link)`
     pointer-events: none;
     border-bottom: 2px solid #fff;
   `}
+
+  @media screen and (min-width: 100px) {
+    padding-left: 3px;
+    padding-right: 3px;
+    min-width: 22px;
+  }
+  @media screen and (min-width: 200px) {
+    padding-left: 6px;
+    padding-right: 6px;
+    min-width: 25px;
+  }
+  @media screen and (min-width: 600px) {
+    padding-left: 10px;
+    padding-right: 10px;
+    min-width: 32px;
+  }
+  @media screen and (min-width: 900px) {
+    padding-left: 20px;
+    padding-right: 20px;
+    min-width: 42px;
+  }
 `
 
 const StyledSwitch = styled(Switch).attrs(props => ({
