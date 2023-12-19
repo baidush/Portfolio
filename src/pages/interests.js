@@ -61,8 +61,8 @@ const Interests = ({ className, location }) => {
 
                           <iframe width="400" height="215" src="https://www.youtube.com/embed/ivvxJ2h8nes?si=FS5Y5ZqQRnNlo4Zs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                       </div>
-                    <div className='int'>
-                        <iframe width="400" height="215" src="https://www.youtube.com/embed/tM0wZaULiAU?si=29GduyNnGyCyMNtA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                      <div className='int'>
+                        <iframe width="400" height="215" src="https://www.youtube.com/embed/60lv2ZvGm1E?si=IRtRGaLYKxImawf5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                     </div>
                     </div>
               </Col>
