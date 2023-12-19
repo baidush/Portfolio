@@ -20,7 +20,7 @@ const Image = styled.img`
 `
 
 const JobCard = styled.a`
-  text-decoration: none;
+  text-decoration: none
   color: inherit;
 
   ${({ href }) => href && css`
@@ -53,12 +53,17 @@ const Interests = ({ className, location }) => {
         </Row>
         <Row className="edu-top">
               <Col
-                align="center"
-              >
+                align="center">
                     <div className="edu"> 
-                        <h2>{music.name}</h2>
-                        <p>{music.txt}</p>
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/ivvxJ2h8nes?si=FS5Y5ZqQRnNlo4Zs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                          <h2>{music.name}</h2>
+                          <p>{music.txt}</p>
+                      <div className='int'>
+
+                          <iframe width="400" height="215" src="https://www.youtube.com/embed/ivvxJ2h8nes?si=FS5Y5ZqQRnNlo4Zs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                      </div>
+                    <div className='int'>
+                        <iframe width="400" height="215" src="https://www.youtube.com/embed/tM0wZaULiAU?si=29GduyNnGyCyMNtA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
                     </div>
               </Col>
               <Col key={gym.txt}
@@ -97,8 +102,69 @@ export default styled(Interests)`
     margin-top: 30px;
     width: 100%;
   }
+  .int {
+    margin-top: 30px;
+    width: 50%;
+    
+  }
   .cert {
     margin-top: 30px;
     width: 100%;
+  }
+
+  @media screen and (min-width: 200px) {
+    .int iframe {
+      height: 120px;
+      width: 230px;
+    }
+    .int {
+      float: none;
+    }
+  }
+  @media screen and (min-width: 300px) {
+    .int iframe {
+      height: 120px;
+      width: 230px;
+    }
+    .int {
+      float: none;
+    }
+  }
+  @media screen and (min-width: 400px) {
+    .int iframe {
+      height: 160px;
+      width: 300px;
+    }
+    .int {
+      float: none;
+    }
+  }
+  @media screen and (min-width: 500px) {
+    .int iframe {
+      height: 215px;
+      width: 400px;
+    }
+    .int {
+      float: none;
+    }
+  }
+
+  @media screen and (min-width: 1000px) {
+    .int iframe {
+      height: 215px;
+      width: 400px;
+    }
+    .int {
+      float: none;
+    }
+  }
+  @media screen and (min-width: 1100px) {
+    .int iframe {
+      height: 215px;
+      width: 400px;
+    }
+    .int {
+      float: left;
+    }
   }
 `
