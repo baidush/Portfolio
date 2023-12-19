@@ -53,6 +53,7 @@ const Education = ({ className, location }) => {
                     <p><strong>{edu.name}</strong></p>
                     <p>{edu.degree}</p>
                     <p><em>{edu.description}</em></p>
+                    <p><a href={edu.url}>{edu.url}</a></p>
                     <p>{edu.date}</p>
                   </div>
                 </Col>
@@ -63,7 +64,7 @@ const Education = ({ className, location }) => {
               {cert.map(c => (
                 <div className="cert" key={c.name}>
                   <p><strong>{c.name}</strong></p>
-                  <p>{c.url}</p>
+                  <p><a href={c.url}>{c.url}</a></p>
                   <p>{c.date}</p>
                 </div>
               ))}
