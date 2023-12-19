@@ -59,9 +59,9 @@ const HeaderLink = styled(Link)`
   `}
 
   @media screen and (min-width: 100px) {
-    padding-left: 2px;
-    padding-right: 2px;
-    min-width: 12px;
+    padding-left: 0px;
+    padding-right: 0px;
+    min-width: 10px;
   }
   @media screen and (min-width: 200px) {
     padding-left: 6px;
