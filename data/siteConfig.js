@@ -215,13 +215,13 @@ module.exports = {
     {
       name: "Kremenchuk Mykhailo Ostrohradskyi National University",
       degree: "M.Sc. degree in Computer Science (awarded on June 2008)",
-      description: "Abstract: The application provides an automation software storage administration as a part of the company environment",
+      description: "Diploma Thesis: The application offers automated software storage administration as an integral component of the company's environment.",
       url: "www.kdu.edu.ua",
       date: "Sep 2007 – Jun 2008"
     },
     {
       name: "Kremenchuk Mykhailo Ostrohradskyi National University",
-      degree: "B.Sc. degree in Computer Systems and Networking",
+      degree: "B.Sc. degree in Computer Science",
       description: "",
       url: "www.kdu.edu.ua",
       date: "Sep 2003 – Jun 2007"
