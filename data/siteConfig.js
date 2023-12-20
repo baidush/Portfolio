@@ -294,7 +294,7 @@ module.exports = {
     },
     {
       label: 'Download',
-      url: '/images/kostiantyn-baidush-cv.pdf',
+      url: '/images/cv.pdf',
     },
     {
       label: 'Interests',
