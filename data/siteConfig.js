@@ -40,7 +40,7 @@ module.exports = {
       level: 50
     },
     {
-      name: 'MySQL | Postgresql | Mongodb | GraphQl | Firestore',
+      name: 'MySQL | Postgresql | MongoDB | GraphQl| Firestore',
       level: 50
     },
     {
