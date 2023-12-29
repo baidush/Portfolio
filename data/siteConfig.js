@@ -246,7 +246,7 @@ module.exports = {
   ],
   interests_title: "I have several hobbies, which I try to devote enough time to and get certain results in them and keep work-life balance",
   projects_title: "In my professional practice, I've worked extensively with a diverse range of web and mobile applications",
-  edu_title: "The venture into software development started in 2003 when I enrolled at the Technical University in my hometown, Kremenchuk, Ukraine. I successfully completed the program, earning a Master's Degree in Computer Science",
+  edu_title: "I began my journey in software development in 2003 at the Technical University in Kremenchuk, Ukraine. I successfully graduated, earning a Master's Degree in Computer Science.",
   music: 
   {
       name: "Music and Drumming",
