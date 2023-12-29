@@ -32,7 +32,7 @@ module.exports = {
       level: 60
     },
     {
-      name: 'GCP | AppEngine | ComputeEngine | Firebase | BigQuery',
+      name: 'GCP | Firebase | BigQuery',
       level: 60
     },
     {
@@ -40,7 +40,7 @@ module.exports = {
       level: 50
     },
     {
-      name: 'MySQL | Postgresql | MongoDB | GraphQl| Firestore',
+      name: 'MySQL|Postgresql| MongoDB |GraphQl| Firestore',
       level: 50
     },
     {
