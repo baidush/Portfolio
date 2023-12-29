@@ -42,7 +42,7 @@ const Education = ({ className, location }) => {
   
         <Wrapper className={className}>
           <Container className="page-content" fluid>
-            <Row className="edu-title">
+            <Row className="edu-title2">
               <strong>{edu_title}</strong>
             </Row>
             
@@ -84,8 +84,8 @@ export default styled(Education)`
     margin-top: 50px;
     padding-left: 0;
   }
-  .edu-title {
-    margin-top: 30px;
+  .edu-title2 {
+    margin-top: 0px;
     padding-left: 0;
   }
   .edu {
