@@ -84,6 +84,10 @@ export default styled(Education)`
     margin-top: 50px;
     padding-left: 0;
   }
+  .edu-title {
+    margin-top: 20px;
+    padding-left: 0;
+  }
   .edu {
     margin-top: 30px;
     width: 100%;
