@@ -20,7 +20,7 @@ module.exports = {
   `,
   skills: [
     {
-      name: 'NodeJs | TypeScript | JavaScript | PHP | Go | Phyton',
+      name: 'NodeJs | TypeScript | JavaScript | PHP | Go',
       level: 80
     },
     {
