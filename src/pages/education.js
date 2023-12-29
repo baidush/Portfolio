@@ -85,7 +85,7 @@ export default styled(Education)`
     padding-left: 0;
   }
   .edu-title2 {
-    margin-top: 0px;
+    margin-top: 10px;
     padding-left: 0;
   }
   .edu {

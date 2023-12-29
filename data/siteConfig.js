@@ -28,7 +28,7 @@ module.exports = {
       level: 70
     },
     {
-      name: 'AWS | SQS | Lambda | Api Gateway | EC2 | S3 | EBS | CloudFront',
+      name: 'AWS | Lambda | Api Gateway | CloudFront',
       level: 60
     },
     {
@@ -36,11 +36,11 @@ module.exports = {
       level: 60
     },
     {
-      name: 'NestJs | ExpressJs | ReactJs | AngularJs | BootstrapJs | NextJs',
+      name: 'NestJs | ExpressJs | ReactJs | AngularJs | NextJs',
       level: 50
     },
     {
-      name: 'MySQL | Postgresql | Mongodb | GraphQl | Dynamodb | Firestore',
+      name: 'MySQL | Postgresql | Mongodb | GraphQl | Firestore',
       level: 50
     },
     {
@@ -49,10 +49,6 @@ module.exports = {
     },
     {
       name: 'Micro-services | event-driven | event-sourcing',
-      level: 50
-    },
-    {
-      name: 'Lambda | serverless | cloud functions',
       level: 50
     },
     {
