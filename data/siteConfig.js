@@ -24,7 +24,7 @@ module.exports = {
       level: 80
     },
     {
-      name: 'Git | SVN | Github | Gitlab | Bitbucket',
+      name: 'Git | SVN | Github | Gitlab | Bitbucket | Jira | Trello',
       level: 70
     },
     {
@@ -44,7 +44,7 @@ module.exports = {
       level: 60
     },
     {
-      name: 'RabbitMQ | Kafka | SQS | SNS | Pub/Sub | Kinesis | EventBridge | EventGrid | EventHub | RabbitMQ | Kafka | NATS',
+      name: 'RabbitMQ | Kafka | SQS | SNS | Pub/Sub | Kinesis | EventBridge | EventGrid | EventHub | WebSockets | WebRTC',
       level: 60
     },
     {
