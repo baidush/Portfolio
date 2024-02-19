@@ -20,7 +20,7 @@ module.exports = {
   `,
   skills: [
     {
-      name: 'NodeJs | TypeScript | JavaScript | PHP | Go',
+      name: 'NodeJs | TypeScript | JavaScript | PHP | Python',
       level: 80
     },
     {
@@ -28,32 +28,32 @@ module.exports = {
       level: 70
     },
     {
-      name: 'AWS | Lambda | Api Gateway | CloudFront',
+      name: 'AWS | Lambda | Api Gateway | CloudFront | Fargate | ECS | S3 | RDS | DynamoDB | SQS | SNS | SES | Cognito | Amplify',
       level: 60
     },
     {
-      name: 'GCP | Firebase | BigQuery',
+      name: 'GCP | Cloud Functions | Cloud Run | App Engine | Cloud Storage | Firebase',
       level: 60
     },
     {
-      name: 'NestJs | ExpressJs | ReactJs | AngularJs | NextJs',
-      level: 50
+      name: 'NestJs | ExpressJs | ReactJs | AngularJs | NextJs | FastAPI | VueJs | GatsbyJs | NuxtJs | React Native | Flutter',
+      level: 60
     },
     {
-      name: 'MySQL|Postgresql| MongoDB |GraphQl| Firestore',
-      level: 50
+      name: 'MySQL | Postgresql |  MongoDB | GraphQl | Redis | ElasticSearch | BigQuery | DynamoDB | Cloud SQL',
+      level: 60
     },
     {
-      name: 'RabbitMQ | Kafka | SQS',
-      level: 50
+      name: 'RabbitMQ | Kafka | SQS | SNS | Pub/Sub | Kinesis | EventBridge | EventGrid | EventHub | RabbitMQ | Kafka | NATS',
+      level: 60
     },
     {
-      name: 'Micro-services | event-driven | event-sourcing',
-      level: 50
+      name: 'Serverless | Micro-frontends | Micro-services | event-driven | event-sourcing | CQRS',
+      level: 60
     },
     {
-      name: 'Kubernetes | Terraform',
-      level: 30
+      name: 'DDD | TDD | BDD | CI/CD | DevOps | Docker | Kubernetes | Terraform | Serverless Framework | AWS CDK',
+      level: 60
     }
     /* more skills here */
   ],
