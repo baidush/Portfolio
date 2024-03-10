@@ -239,6 +239,11 @@ module.exports = {
       url: "",
       date: "Sep 2019"
     },
+    {
+      name: "Coursera: Generative AI for Software Developers",
+      url: "https://www.coursera.org/account/accomplishments/specialization/2LR8UD3EBRLT",
+      date: "Mar 2024"
+    },
   ],
   interests_title: "I have several hobbies, which I try to devote enough time to and get certain results in them and keep work-life balance",
   projects_title: "In my professional practice, I've worked extensively with a diverse range of web and mobile applications",
