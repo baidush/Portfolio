@@ -1,5 +1,5 @@
 module.exports = {
-  siteTitle: 'Kostiantyn Baidush CV',
+  siteTitle: 'Kostiantyn Baidush Resume',
   siteDescription: `Senior Software Engineer`,
   keyWords: ['gatsbyjs', 'NodeJs', 'TypeScript'],
   authorName: 'Kostix Baidush',
